@@ -1,0 +1,10 @@
+package miduoduo;
+message siteinfo {
+	required string siteid = 1;
+	required int32 machineid = 2;
+	required float xgps = 3;
+	required float ygps = 4;
+	required float tvalue = 5;
+	required float wvalue = 6;
+	required string alerttime = 7;
+	}
